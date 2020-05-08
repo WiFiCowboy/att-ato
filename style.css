@@ -1,10 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+/* closest font to clearveiwATT */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700");
 
 html,
 body {
   height: 100%;
   width: 100%;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
   color: #222222;
 }
 
@@ -18,6 +19,15 @@ body {
 }
 .nav-link {
   font-size: 1.1em !important;
+}
+
+.brand-name {
+  padding-left: 10px;
+}
+
+.navbar-header {
+  color: #067ab4;
+  padding-left: 10px;
 }
 
 /* carousel style */
@@ -46,14 +56,18 @@ body {
   padding-bottom: 1rem;
 }
 
+.carousel-item img {
+  filter: brightness(70%);
+}
+
 .btn-primary {
-  background-color: #6648b1;
-  border: 1px solid #563d73;
+  background-color: #067ab4;
+  border: 1px solid #067ab4;
 }
 
 .btn-primary:hover {
-  background-color: #563d7c;
-  border: 1px solid #563d7c;
+  background-color: #065278;
+  border: 1px solid #065278;
 }
 
 /* jumbotron styles */
@@ -82,21 +96,21 @@ body {
 }
 
 /* icon styles */
-.fa-code {
+.fa-microphone {
   color: #e54d26;
 }
 
-.fa-bold {
+.fa-film {
   color: #563d7c;
 }
 
-.fa-css3 {
+.fa-users {
   color: #2163af;
 }
 
-.fa-code,
-.fa-bold,
-.fa-css3 {
+.fa-microphone,
+.fa-film,
+.fa-users {
   font-size: 4em;
   margin: 1rem;
 }
@@ -203,6 +217,10 @@ hr.light-100 {
   }
 }
 @media (max-width: 576px) {
+  .navbar-header {
+    display: none;
+  }
+
   .carousel-caption {
     top: 40%;
   }
@@ -256,7 +274,7 @@ figure {
   height: 100%;
 }
 #fixed {
-  background-image: url("img/mac.png");
+  background-image: url("img/bgImg.jpg");
   position: fixed;
   display: block;
   top: 0;
