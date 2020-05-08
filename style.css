@@ -57,7 +57,7 @@ body {
 }
 
 .carousel-item img {
-  filter: brightness(70%);
+  filter: brightness(80%);
 }
 
 .btn-primary {
@@ -122,6 +122,10 @@ body {
 }
 .gif {
   max-width: 100%;
+}
+
+.card {
+  box-shadow: 10px 10px 5px grey;
 }
 
 /* Connect section styles */
@@ -274,7 +278,7 @@ figure {
   height: 100%;
 }
 #fixed {
-  background-image: url("img/bgImg.jpg");
+  background-image: url("img/corpHq.jpg");
   position: fixed;
   display: block;
   top: 0;
