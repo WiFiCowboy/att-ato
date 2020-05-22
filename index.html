@@ -53,6 +53,18 @@
       </div>
     </nav>
 
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center">
+      <h1 class="display-3">ATO’s Mission</h1>
+      <p class="lead">delivering the technology of tomorrow today</p>
+      <hr class="my-2">
+      <h2>ATO Goals</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, ratione?</p>
+      <!-- <p class="lead">
+        <a class="btn btn-primary btn-lg" href="#!" role="button">Some action</a>
+      </p> -->
+    </div>
+
     <!--- Image Slider -->
     <div id="slides" class="carousel slide" data-ride="carousel">
       <ul class="carousel-indicators">
@@ -66,11 +78,11 @@
         <div class="carousel-item active">
           <img src="img/radio.jpeg" />
           <div class="carousel-caption">
-            <h1 class="display-2">We Are ATO</h1>
-            <h3>delivering the technology of tomorrow today</h3>
-            <!-- <button type="button" class="btn btn-outline-light btn-lg">
-              VIEW DEMO
-            </button> -->
+            <h1 class="display-2">ATO in the News</h1>
+            <h3>Rotating news articles</h3>
+            <button type="button" class="btn btn-outline-light btn-lg">
+              Link to Article
+            </button>
             <!-- <button type="button" class="btn btn-primary btn-lg">
               Link
             </button> -->
@@ -107,10 +119,18 @@
           </div>
         </div>
       </div>
+      <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
 
     <!--- Jumbotron -->
-    <div class="container-fluid">
+    <!-- <div class="container-fluid">
       <div class="row jumbotron">
         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
           <p class="lead">
@@ -125,10 +145,10 @@
           >
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!--- Welcome Section -->
-    <div class="container-fluid padding">
+    <!-- <div class="container-fluid padding">
       <div class="row welcome text-center">
         <div class="col-12">
           <h1 class="display-4">Upcoming Events</h1>
@@ -140,10 +160,10 @@
           </p>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!--- Three Column Section -->
-    <div class="container-fluid padding">
+    <!-- <div class="container-fluid padding">
       <div class="row text-center padding">
         <div class="col-xs-12 col-sm-6 col-md-4">
           <i class="fas fa-microphone"></i>
@@ -168,29 +188,97 @@
         </div>
       </div>
       <hr class="my-4" />
-    </div>
+    </div> -->
 
     <!--- Two Column Section -->
     <div class="container-fluid padding">
-      <div class="row padding">
+      <div class="row padding text-center">
+        <div class="col-lg-6">
+          <h2>Scott’s Corner</h2>
+          <p >
+            Blog/Vlog with like and comment feature
+          </p>
+          <p >
+            Internal Scrolling available
+          </p>
+          <br />
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">
+  Icon Button
+</button>
+
+<!-- Modal -->
+<div class="modal" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenteredLabel">Scott’s Corner</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, totam.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit cum, sunt, eligendi modi quisquam doloremque consectetur illo minus suscipit alias optio animi. Ut vel eveniet magnam nihil architecto consequatur at!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, totam.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit cum, sunt, eligendi modi quisquam doloremque consectetur illo minus suscipit alias optio animi. Ut vel eveniet magnam nihil architecto consequatur at!</p>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="//www.youtube.com/embed/lqSwtr-R9wM" allowfullscreen></iframe>
+        </div>
+        <br>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="//www.youtube.com/embed/lqSwtr-R9wM" allowfullscreen></iframe>
+        </div>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success">like icon</button>
+        <button type="button" class="btn btn-info">comment icon</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+        </div>
+        <!-- <div class="col-lg-6">
+          <img src="img/engineer.jpg" class="img-fluid" />
+        </div> -->
         <div class="col-lg-6">
           <h2>Monthly Video</h2>
           <p>
-            Video with Like Feature & Comments Enabled
-          </p>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore,
-            officia.
-          </p>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore,
-            officia.
+            Video with like feature and comments enabled
           </p>
           <br />
-          <a href="#" class="btn btn-primary">Learn More</a>
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Icon Button
+</button>
+
+<!-- Modal -->
+<div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Monthly Video</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="//www.youtube.com/embed/lqSwtr-R9wM" allowfullscreen></iframe>
         </div>
-        <div class="col-lg-6">
-          <img src="img/engineer.jpg" class="img-fluid" />
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success">like icon</button>
+        <button type="button" class="btn btn-info">comment icon</button>
+      </div>
+    </div>
+  </div>
+</div>
+
         </div>
       </div>
     </div>
