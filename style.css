@@ -44,7 +44,7 @@ body {
 }
 
 .carousel-caption h1 {
-  font-size: 500%;
+  font-size: 300%;
   text-transform: uppercase;
   text-shadow: 1px 1px 15px #000;
 }
@@ -68,6 +68,16 @@ body {
 .btn-primary:hover {
   background-color: #065278;
   border: 1px solid #065278;
+}
+
+.header-main {
+  background-image: url("img/radio.jpeg");
+  background-size: cover;
+  min-width: 100%;
+  color: white;
+  text-shadow: -1px 1px 0 #000;
+  border-bottom: 2px solid white;
+  margin-bottom: 0;
 }
 
 /* jumbotron styles */
@@ -96,7 +106,8 @@ body {
 }
 
 /* icon styles */
-.fa-microphone {
+.fa-microphone,
+.fa-comment-alt {
   color: #e54d26;
 }
 
@@ -110,7 +121,9 @@ body {
 
 .fa-microphone,
 .fa-film,
-.fa-users {
+.fa-users,
+.fa-comment-alt,
+.fa-youtube {
   font-size: 4em;
   margin: 1rem;
 }
@@ -158,7 +171,8 @@ body {
 .fa-twitter:hover,
 .fa-google:hover,
 .fa-instagram:hover,
-.fa-youtube:hover {
+.fa-youtube:hover,
+.fa-comment-alt:hover {
   color: #d5d5d5;
 }
 
@@ -199,11 +213,11 @@ hr.light-100 {
   }
 
   .carousel-caption h1 {
-    font-size: 350%;
+    font-size: 120%;
   }
 
   .carousel-caption h3 {
-    font-size: 140%;
+    font-size: 100%;
     font-weight: 400;
     padding-bottom: 0.2rem;
   }
@@ -230,14 +244,14 @@ hr.light-100 {
   }
 
   .carousel-caption h1 {
-    font-size: 250%;
+    font-size: 90%;
   }
 
   .carousel-caption h3 {
-    font-size: 110%;
+    font-size: 90%;
   }
   .carousel-caption .btn {
-    font-size: 90%;
+    font-size: 70%;
     padding: 4px 8px;
   }
 
