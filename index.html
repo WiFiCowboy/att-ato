@@ -18,7 +18,7 @@
 
   <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <nav class="navbar navbar-expand-md navbar-dark navbar-default sticky-top">
       <div class="container-fluid">
         <a href="#" class="navbar-brand"
           ><img src="img/attLogo.png" width="40"
@@ -55,25 +55,14 @@
 
     <!-- Jumbotron -->
     <div class="jumbotron header-main">
-      <h1 class="display-4 text-left">We are ATO</h1>
-      <p class="lead text-left">delivering the technology of tomorrow today</p>
-      <!-- <hr class="my-2">
-      <h2>ATO Goals</h2>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, ratione?</p> -->
-      <!-- <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#!" role="button">Some action</a>
-      </p> -->
+      <div class="container container-fluid">
+        <h1 class="display-4 text-left">We are ATO</h1>
+        <p class="lead text-left">delivering the technology of tomorrow today</p>
+      </div>
     </div>
 
     <!--- Image Slider -->
     <div id="slides" class="carousel slide" data-ride="carousel">
-      <!-- <ul class="carousel-indicators">
-        <li data-target="#slides" data-slide-to="0" class="active"></li>
-        <li data-target="#slides" data-slide-to="1"></li>
-        <li data-target="#slides" data-slide-to="2"></li>
-        <li data-target="#slides" data-slide-to="3"></li> -->
-        <!-- <li data-target="#slides" data-slide-to="4"></li> -->
-      <!-- </ul> -->
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="img/radio.jpeg" />
@@ -83,9 +72,6 @@
             <button type="button" class="btn btn-outline-light btn-lg">
               Link to Article
             </button>
-            <!-- <button type="button" class="btn btn-primary btn-lg">
-              Link
-            </button> -->
           </div>
         </div>
         <div class="carousel-item">
@@ -129,7 +115,7 @@
       </a>
     </div>
 
-    <!--- Two Column Section -->
+    <!--- Two Column Section Scott/ Video-->
     <div class="container-fluid padding">
       <div class="row padding text-center">
         <div class="col-lg-6 ">
@@ -139,7 +125,9 @@
               <p class="card-text">
                 Blog/Vlog with like and comment feature
               </p>
-              <i data-toggle="modal" data-target="#exampleModalScrollable" class="fas fa-comment-alt"></i>
+              <i data-toggle="modal" data-target="#exampleModalScrollable"><img class="current_program"
+                src="/img/current_program.png" alt="screen" 
+                ></i>
             </div>
           </div>
 
@@ -217,7 +205,7 @@
               <p class="card-text">
                 Video with like feature and comments enabled
               </p>
-              <i data-toggle="modal" data-target="#exampleModal" class="fab fa-youtube"></i>
+              <i data-toggle="modal" data-target="#exampleModal"><img   class="watch-tv" src="/img/Watch_on_tv_icon.png" alt="tv"></i>
             </div>
           </div>
 
@@ -260,8 +248,7 @@
         </div>
     </div>
 
-
-
+    <!-- Two Column Section Events/ News  -->
     <div class="container-fluid padding">
       <div class="row ">
 
@@ -363,6 +350,9 @@
                 <textarea class="form-control" placeholder="Enter news..." rows="3"></textarea>
               </div>
               <a href="javascript:void(0)" class="btn btn-primary btn-sm pull-right waves-effect waves-light">Submit News</a>
+              <a href="javascript:void(0)" class="btn btn-primary btn-sm pull-right waves-effect waves-light">
+                <i class="fas fa-upload"></i>
+                </a>
               <div class="clearfix"></div>
               <hr class="margin-bottom-10">
               <ul class="list-group list-group-dividered list-group-full">
@@ -375,8 +365,9 @@
                       </a>
                     </div>
                     <div class="media-body">
-                      <small class="text-muted pull-right">Just now</small>
+                      <small class="text-muted pull-right">Just now <span class="badge badge-primary badge-follow">Follow</span></small>
                       <h4 class="media-heading">@Ramon Dunn</h4>
+                      
                       <div>Lorem ipsum Veniam aliquip culpa laboris minim tempor labore
                         commodo officia veniam non in in in.</div>
                     </div>
@@ -391,7 +382,7 @@
                       </a>
                     </div>
                     <div class="media-body">
-                      <small class="text-muted pull-right">38 minutes ago</small>
+                      <small class="text-muted pull-right">38 minutes ago <span class="badge badge-primary badge-follow">Follow</span></small>
                       <h4 class="media-heading">@Scott Sanders</h4>
                       <div>Lorem ipsum Laborum sit laborum cillum proident dolore culpa
                         reprehenderit qui enim labore do mollit in.</div>
@@ -407,7 +398,7 @@
                       </a>
                     </div>
                     <div class="media-body">
-                      <small class="text-muted pull-right">2 hours ago</small>
+                      <small class="text-muted pull-right">2 hours ago <span class="badge badge-primary badge-follow">Follow</span></small>
                       <h4 class="media-heading">@Nina Wells</h4>
                       <div>Lorem ipsum Culpa mollit ex mollit magna dolore dolore dolore
                         tempor velit magna enim ad dolore dolore dolore.</div>
@@ -422,18 +413,16 @@
       </div> 
     </div>
 
-
-    
-    <!--- Two Column Section -->
+    <!--- Two Column Section Recognition -->
     <div class="container-fluid padding">
       <div class="row padding">
         <div class="col-lg-6">
-          <img src="img/desk.png" class="img-fluid" />
+          <img src="img/logo_bg_rec.png" class="img-fluid" />
         </div>
         <div class="col-lg-6">
-          <h2>Share Your Story!</h2>
+          <h2>Recognition!</h2>
           <p>
-            Form For Employees to Submit Content (Photos, Videos, Stories, Recognition)
+            Form to Submit Recognition
           </p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
@@ -447,138 +436,36 @@
       <hr class="my-4">
     </div>
 
-    <!-- <div class="row ">
-      <div class="col-md-6 grid-margin-md stretch-card d-flex_">
-          <div class="card">
-            <div class="card-body">
-              <div class="d-flex justify-content-between mb-3">
-                  <h4 class="card-title">Switch to Direct Plans</h4>
-                  <h6><a href="#" class="text-primary">See 4 More</a></h6>
-              </div>
-              <div class="border p-3 mb-3">
-                <div class="border-bottom pb-3">
-                  <div class="row">
-                      <div class="col-sm-4 border-right-lg border-right-md-0">
-                        <div class="d-flex justify-content-center align-items-center">
-                          <h1 class="mb-0 mr-2 text-primary font-weight-normal">04</h1>
-                            <div>
-                              <p class="font-weight-bold mb-0 text-dark">Feb</p>
-                              <p class="mb-0">2018</p>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="col-sm-8 pl-3">
-                        <p class="text-dark font-weight-bold mb-0">Lorem ipsum dolor sit amit</p>
-                        <p class="mb-0">9.30 PM - 10:30 PM</p>
-                      </div>
-                    </div>
-                </div>
-                <div class="pt-3">
-                    <div class="row">
-                        <div class="col-sm-4 border-right-lg border-right-md-0">
-                          <div class="d-flex justify-content-center align-items-center">
-                            <h1 class="mb-0 mr-2 text-primary font-weight-normal">15</h1>
-                              <div>
-                                <p class="font-weight-bold mb-0 text-dark">Mar</p>
-                                <p class="mb-0">2018</p>
-                              </div>
-                          </div>
-                        </div>
-                        <div class="col-sm-8 pl-3">
-                          <p class="text-dark font-weight-bold mb-0">Lorem ipsum dolor sit amit</p>
-                          <p class="mb-0">10.00 PM - 12:30 PM</p>
-                        </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="border p-3">
-                <div class="border-bottom pb-3">
-                  <div class="row">
-                      <div class="col-sm-4 border-right-lg border-right-md-0">
-                        <div class="d-flex justify-content-center align-items-center">
-                          <h1 class="mb-0 mr-2 text-primary font-weight-normal">22</h1>
-                            <div>
-                              <p class="font-weight-bold mb-0 text-dark">Apr</p>
-                              <p class="mb-0">2018</p>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="col-sm-8 pl-3">
-                        <p class="text-dark font-weight-bold mb-0">Lorem ipsum dolor sit amit</p>
-                        <p class="mb-0">9.30 PM - 10:30 PM</p>
-                      </div>
-                    </div>
-                </div>
-                <div class="pt-3">
-                    <div class="row">
-                        <div class="col-sm-4 border-right-lg border-right-md-0">
-                          <div class="d-flex justify-content-center align-items-center">
-                            <h1 class="mb-0 mr-2 text-primary font-weight-normal">26</h1>
-                              <div>
-                                <p class="font-weight-bold mb-0 text-dark">Jun</p>
-                                <p class="mb-0">2018</p>
-                              </div>
-                          </div>
-                        </div>
-                        <div class="col-sm-8 pl-3">
-                          <p class="text-dark font-weight-bold mb-0">Lorem ipsum dolor sit amit</p>
-                          <p class="mb-0">10.00 PM - 12:30 PM</p>
-                        </div>
-                      </div>
-                  </div>
-              </div>
-            </div>
-          </div>
-      </div>
-    </div> -->
-    
-
-    <!--- Connect -->
-    <!-- <div class="container-fluid padding">
-      <div class="row text-center padding">
-        <div class="col-12">
-          <h2>Connect</h2>
-        </div>
-        <div class="col-12 social padding">
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-google"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-youtube"></i></a>
-        </div>
-      </div>
-    </div> -->
-
     <!--- Footer -->
     <footer>
       <div class="container-fluid padding">
         <div class="row text-center">
-          <div class="col-md-4">
+          <div class="col-md-4 ">
             <hr class="light" />
             <h5>Contact Us</h5>
             <hr class="light" />
-            <p>555-555-5555</p>
-            <p>01001000@email.com</p>
+            <p class="footer-links">555-555-5555</p>
+            <p class="footer-links">01001000@email.com</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 ">
             <hr class="light" />
             <h5>Related Links</h5>
             <hr class="light" />
-            <p>HR OneStop</p>
-            <p>PLE</p>
-            <p>Amplify</p>
+            <p class="footer-links">HR OneStop</p>
+            <p class="footer-links">PLE</p>
+            <p class="footer-links">Amplify</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 ">
             <hr class="light" />
             <h5>Business Links</h5>
             <hr class="light" />
-            <p>Webphone</p>
-            <p>ask&GET Portal</p>
-            <p>Service Desk</p>
+            <p class="footer-links">Webphone</p>
+            <p class="footer-links">ask&GET Portal</p>
+            <p class="footer-links">Service Desk</p>
 					</div>
 					<div class="col-12">
 						<hr class="light">
-						<h5>&copy; AT&T Technology & Operations</h5>
+						<h5>&copy; <span class="footer-links">AT&T</span> Technology & Operations</h5>
 					</div>
         </hr>
       </div>

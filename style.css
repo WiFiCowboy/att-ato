@@ -30,6 +30,10 @@ body {
   padding-left: 10px;
 }
 
+.navbar-default {
+  background-color: black;
+}
+
 /* carousel style */
 .carousel-inner {
   position: relative;
@@ -63,8 +67,8 @@ body {
   padding-bottom: 1rem;
 }
 
-.carousel-item {
-  max-height: 600px;
+.carousel-item img {
+  max-height: 500px;
 }
 
 .carousel-item img {
@@ -87,13 +91,13 @@ body {
   min-width: 100%;
   color: white;
   text-shadow: -1px 1px 0 #000;
-  border-bottom: 2px solid white;
+  border-bottom: 1px solid white;
   margin-bottom: 0;
 }
 
 /* jumbotron styles */
 .jumbotron {
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 0;
 }
 
@@ -182,6 +186,12 @@ body {
   color: #bb0000;
 }
 
+.current_program:hover,
+.watch-tv:hover {
+  filter: invert(50%);
+  cursor: pointer;
+}
+
 .fa-archive:hover,
 .fa-window-close:hover,
 .fa-comment:hover,
@@ -194,14 +204,31 @@ body {
 .fa-youtube:hover,
 .fa-comment-alt:hover {
   color: #d5d5d5;
+  cursor: pointer;
+}
+
+.badge-follow:hover {
+  color: #067ab4;
+  background-color: #d5d5d5;
+  cursor: pointer;
 }
 
 /* footer styles */
 footer {
-  background-color: #3f3f3f;
-  color: #d5d5d5;
+  background-color: #000000;
+  color: #067ab4;
   padding-top: 2rem;
 }
+
+.footer-links {
+  color: whitesmoke;
+}
+
+.footer-links:hover {
+  color: #067ab4;
+  cursor: pointer;
+}
+
 hr.light {
   border-top: 1px solid #d5d5d5;
   width: 75%;
