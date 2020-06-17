@@ -129,81 +129,19 @@
       </a>
     </div>
 
-    <!--- Jumbotron -->
-    <!-- <div class="container-fluid">
-      <div class="row jumbotron">
-        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-          <p class="lead">
-            News from You!! Employee Submitted Content (Photos, Videos, Stories, Recognition) / Like Feature & Comments Enabled
-          </p>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-          <a href="#"
-            ><button type="button" class="btn btn-outline-secondary btn-lg">
-              News
-            </button></a
-          >
-        </div>
-      </div>
-    </div> -->
-
-    <!--- Welcome Section -->
-    <!-- <div class="container-fluid padding">
-      <div class="row welcome text-center">
-        <div class="col-12">
-          <h1 class="display-4">Upcoming Events</h1>
-        </div>
-        <hr />
-        <div class="col-12">
-          <p class="lead">
-            Open Mics, Town Halls, HR-Related Activities, Corporate Activities
-          </p>
-        </div>
-      </div>
-    </div> -->
-
-    <!--- Three Column Section -->
-    <!-- <div class="container-fluid padding">
-      <div class="row text-center padding">
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <i class="fas fa-microphone"></i>
-          <h3>Open Mic</h3>
-          <p>
-            Focus on top 3 upcoming events and link to the ATO Events page
-          </p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <i class="fas fa-film"></i>
-          <h3>Town Hall</h3>
-          <p>
-            Focus on top 3 upcoming events and link to the ATO Events page
-          </p>
-        </div>
-        <div class="col-sm-12 col-md-4">
-          <i class="fas fa-users"></i>
-          <h3>Corporate Activities</h3>
-          <p>
-            Focus on top 3 upcoming events and link to the ATO Events page
-          </p>
-        </div>
-      </div>
-      <hr class="my-4" />
-    </div> -->
-
     <!--- Two Column Section -->
     <div class="container-fluid padding">
       <div class="row padding text-center">
         <div class="col-lg-6 ">
-          <h2>Scott’s Corner</h2>
-          <p >
-            Blog/Vlog with like and comment feature
-          </p>
-          
-          <br />
-          <!-- Button trigger modal -->
-          <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable"> -->
-          <i data-toggle="modal" data-target="#exampleModalScrollable" class="fas fa-comment-alt"></i>
-            <!-- </button> -->
+          <div class="card border-secondary">
+            <div class="card-body">
+              <h4 class="card-title">Scott’s Corner</h4>
+              <p class="card-text">
+                Blog/Vlog with like and comment feature
+              </p>
+              <i data-toggle="modal" data-target="#exampleModalScrollable" class="fas fa-comment-alt"></i>
+            </div>
+          </div>
 
             <!-- Modal -->
             <div class="modal" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableLabel" aria-hidden="true">
@@ -271,19 +209,17 @@
             </div>
           </div>
         </div>
-        <!-- <div class="col-lg-6">
-          <img src="img/engineer.jpg" class="img-fluid" />
-        </div> -->
-        <div class="col-lg-6">
-          <h2>Monthly Video</h2>
-          <p>
-            Video with like feature and comments enabled
-          </p>
-          <br />
-          <!-- Button trigger modal -->
-          <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"> -->
-          <i data-toggle="modal" data-target="#exampleModal" class="fab fa-youtube"></i>
-          <!-- </button> -->
+
+        <div class="col-lg-6 ">
+          <div class="card border-secondary">
+            <div class="card-body">
+              <h4 class="card-title">Monthly Video</h4>
+              <p class="card-text">
+                Video with like feature and comments enabled
+              </p>
+              <i data-toggle="modal" data-target="#exampleModal" class="fab fa-youtube"></i>
+            </div>
+          </div>
 
           <!-- Modal -->
           <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -323,21 +259,14 @@
           </div>
         </div>
     </div>
-    </div>
 
-    <hr class="my-4" />
-    <!--- Fixed background -->
-    <figure>
-      <div class="fixed-wrap">
-        <div id="fixed"></div>
-      </div>
-    </figure>
 
 
     <div class="container-fluid padding">
       <div class="row ">
+
         <div class="col-md-6 grid-margin-md stretch-card d-flex_">
-            <div class="card">
+            <div class="card border-secondary h-100">
               <div class="card-body">
                 <div class="d-flex justify-content-between mb-3">
                     <h4 class="card-title">Upcoming Events</h4>
@@ -378,6 +307,8 @@
                           </div>
                         </div>
                     </div>
+
+                    
                 </div>
                 <div class="border p-3">
                   <div class="border-bottom pb-3">
@@ -418,16 +349,20 @@
               </div>
             </div>
         </div>
+
         <div class="col-md-6 grid-margin-md stretch-card d-flex_">
-          <div class="panel card">
+          <div class="card border-secondary h-100">
             <div class="panel-heading">
-              <h3 class="panel-title">News from You</h3>
+              
             </div>
-            <div class="panel-body">
+            <div class="card-body">
+              <div class="d-flex justify-content-between mb-3">
+                <h4 class="card-title">News from You</h4>
+              </div>
               <div class="form-group">
                 <textarea class="form-control" placeholder="Enter news..." rows="3"></textarea>
               </div>
-              <a href="javascript:void(0)" class="btn btn-info btn-sm pull-right waves-effect waves-light">Submit News</a>
+              <a href="javascript:void(0)" class="btn btn-primary btn-sm pull-right waves-effect waves-light">Submit News</a>
               <div class="clearfix"></div>
               <hr class="margin-bottom-10">
               <ul class="list-group list-group-dividered list-group-full">
@@ -484,97 +419,11 @@
             </div>
           </div>
         </div>
-        </div>
+      </div> 
+    </div>
 
-        
-    </div>
-    </div>
 
     
-    
-
-    <!--- Emoji Section left off for future use possibile substitute for officer bios -->
-    <!-- <button class="fun" data-toggle="collapse" data-target="#emoji">
-      Click for fun
-    </button>
-    <div id="emoji" class="collapse">
-      <div class="container-fluid padding">
-        <div class="row text-center">
-          <div class="col-sm-6 col-md-3">
-            <img class="gif" src="img/gif/panda.gif" />
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <img class="gif" src="img/gif/poo.gif" />
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <img class="gif" src="img/gif/unicorn.gif" />
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <img class="gif" src="img/gif/chicken.gif" />
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-    <!--- Meet the team -->
-    <div class="container-fluid padding">
-      <div class="row welcome text-center">
-        <div class="col-12">
-          <h1 class="display-4">Did You Know?</h1>
-        </div>
-        <hr />
-        <div class="col-12">
-          <p class="lead">
-            Fun Facts/Trivia/Officer Profile (Get to Know) / Like Feature & Comments Enabled
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!--- Cards -->
-    <div class="container-fluid padding">
-      <div class="row padding">
-        <div class="col-md-4">
-          <div class="card">
-            <img class="card-img-top" src="img/team4.jpg" />
-            <div class="card-body">
-              <h4 class="card-title">Jane Doe</h4>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-              <a href="#" class="btn btn-outline-secondary">See Profile</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card">
-            <img class="card-img-top" src="img/team2.png" />
-            <div class="card-body">
-              <h4 class="card-title">Jane Doe II</h4>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-              <a href="#" class="btn btn-outline-secondary">See Profile</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card">
-            <img class="card-img-top" src="img/team5.jpg" />
-            <div class="card-body">
-              <h4 class="card-title">John Doe</h4>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-              <a href="#" class="btn btn-outline-secondary">See Profile</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <!--- Two Column Section -->
     <div class="container-fluid padding">
       <div class="row padding">

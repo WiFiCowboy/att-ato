@@ -118,8 +118,9 @@ body {
 
 /* icon styles */
 .fa-microphone,
-.fa-comment-alt {
-  color: #e54d26;
+.fa-comment-alt,
+.fa-youtube {
+  color: #067ab4;
 }
 
 .fa-film {
@@ -177,7 +178,6 @@ body {
   color: #517fa4;
 }
 
-.fa-youtube,
 .fa-window-close {
   color: #bb0000;
 }
