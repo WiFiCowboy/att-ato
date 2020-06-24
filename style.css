@@ -163,10 +163,14 @@ body {
   padding: 3rem;
 }
 
+.fa-heart,
+.fa-share-alt,
 .fa-facebook,
 .fa-comment,
 .fa-thumbs-up {
-  color: #3b5998;
+  color: #067ab4;
+  /* FB color */
+  /* color: #3b5998; */
 }
 
 .fa-twitter {
@@ -192,6 +196,9 @@ body {
   cursor: pointer;
 }
 
+.news-mentions:hover,
+.fa-share-alt:hover,
+.fa-share-square:hover,
 .fa-archive:hover,
 .fa-window-close:hover,
 .fa-comment:hover,
@@ -211,6 +218,10 @@ body {
   color: #067ab4;
   background-color: #d5d5d5;
   cursor: pointer;
+}
+
+.text-muted {
+  padding: 5px;
 }
 
 /* footer styles */
@@ -361,6 +372,25 @@ hr.light-100 {
   color: #065278;
 }
 
+/* Social Icons bar  */
+.news-icon-toolbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.news-icon-toolbar div {
+  padding: 10px;
+}
+
+.news-video {
+  max-width: 500px;
+}
+
+.news-mentions {
+  color: #065278;
+}
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
   .social a {
@@ -448,6 +478,10 @@ hr.light-100 {
 
   .icon-bar a:hover {
     color: #065278;
+  }
+
+  .news-icon-toolbar {
+    justify-content: space-between;
   }
 }
 
