@@ -9,6 +9,11 @@ body {
   color: #222222;
 }
 
+main {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 /* navbar style */
 .navbar {
   padding: 2em;
@@ -38,6 +43,8 @@ body {
   font-size: 0.96em;
 }
 
+/* alerts section */
+
 /* media queries */
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
@@ -56,6 +63,27 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
 
+/* Tablet device */
+@media (max-width: 768px) {
+  .navbar-header {
+    display: none;
+  }
+
+  .nav-text {
+    display: none;
+  }
+
+  main {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .new-alerts-card {
+    padding: 5px 0;
+  }
+}
+
+/* Mobile device */
 @media (max-width: 576px) {
   .navbar-header {
     display: none;
@@ -64,4 +92,16 @@ Extra (xl) large devices (large desktops, 1200px and up)
   .nav-text {
     display: none;
   }
+
+  main {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .new-alerts-card {
+    padding: 5px 0;
+  }
+}
+
+@media (min-width: 1024px) {
 }
