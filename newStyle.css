@@ -1,0 +1,67 @@
+/* closest font to clearveiwATT */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700");
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+  color: #222222;
+}
+
+/* navbar style */
+.navbar {
+  padding: 2em;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+.nav-link {
+  font-size: 0.9em !important;
+}
+
+.brand-name {
+  padding-left: 10px;
+}
+
+.navbar-header {
+  color: #067ab4;
+  padding-left: 10px;
+}
+
+.navbar-default {
+  background-color: black;
+}
+
+.nav-text {
+  font-size: 0.96em;
+}
+
+/* media queries */
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+@media (max-width: 576px) {
+  .navbar-header {
+    display: none;
+  }
+
+  .nav-text {
+    display: none;
+  }
+}
