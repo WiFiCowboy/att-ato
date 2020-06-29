@@ -42,7 +42,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -128,31 +128,108 @@
         </div>
       </div>
     </nav>
-    <div class="filler-div"></div>
 
     <main>
       <!-- Alert cards -->
-      <div class="container-fluid padding new-alerts">
+      <div id="alert-section" class="container-fluid padding new-alerts hide">
         <div class="row padding text-center new-alerts-row">
           <!-- alert left -->
           <div class="col-md-6 new-alerts-card">
             <div class="card">
               <div class="card-body">
-                This is some text within a card body.
+                <div class="row d-flex justify-content-evenly">
+                  <div class="col-sm-4">
+                    <div
+                      class="d-flex justify-content-center align-items-center"
+                    >
+                    <i data-toggle="modal" data-target="#exampleModal"
+                    ><img
+                          class="current_program"
+                          src="img/current_program.png"
+                          alt="screen"
+                      /></i>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 p-3">
+                    <p class="text-dark font-weight-bold mb-0">
+                      New Blog/Vlog Added
+                    </p>
+                    <p class="mb-0">Scott’s Corner</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
 
           <!-- alert right -->
-          <div class="col-md-6 new-alerts-card">
+          <div class="col-md-6 new-alerts-card card-alerts">
             <div class="card">
               <div class="card-body">
-                This is some text within a card body.
+                <div class="row d-flex justify-content-evenly">
+                  <div class="col-sm-4">
+                    <div
+                      class="d-flex justify-content-center align-items-center"
+                    >
+                      <i data-toggle="modal" data-target="#exampleModal"
+                        ><img
+                          class="watch-tv"
+                          src="img/Watch_on_tv_icon.png"
+                          alt="tv"
+                      /></i>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 p-3">
+                    <p class="text-dark font-weight-bold mb-0">
+                      New Monthly Video Added
+                    </p>
+                    <p class="mb-0">User Submitted</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+
+            <!-- Modal -->
+            <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Monthly Video</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">×</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="card">
+                      <div class="card-body">
+                        <h4 class="card-title">6/1/2020</h4>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="//www.youtube.com/embed/0IaFMdt8-wA" allowfullscreen></iframe>
+                        </div>
+                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, totam.</p>
+                        <div class="modal-footer">
+                            <i class="far fa-thumbs-up"></i>
+                            <i class="far fa-comment"></i>
+                            <span>Comments</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <i class="fas fa-archive"></i>
+                    <span>archive</span>
+                    <i class="far fa-window-close"  data-dismiss="modal"></i>
+                    <span>close</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </main>
+
+    <script src="script.js"></script>
   </body>
 </html>

@@ -10,8 +10,8 @@ body {
 }
 
 main {
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 /* navbar style */
@@ -43,7 +43,52 @@ main {
   font-size: 0.96em;
 }
 
+.card {
+  border: 3px #b8b8b8;
+  border-style: solid;
+  border-radius: 15px;
+}
+
 /* alerts section */
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+/* icon utilities */
+.news-mentions:hover,
+.fa-share-alt:hover,
+.fa-share-square:hover,
+.fa-archive:hover,
+.fa-window-close:hover,
+.fa-comment:hover,
+.fa-thumbs-up:hover,
+.fa-heart:hover,
+.fa-comment-alt:hover,
+.current_program:hover,
+.watch-tv:hover {
+  filter: invert(50%);
+  cursor: pointer;
+}
+
+.fa-heart,
+.fa-share-alt,
+.fa-facebook,
+.fa-comment,
+.fa-thumbs-up {
+  color: #067ab4;
+}
+
+.fa-archive {
+  color: #517fa4;
+}
+
+.fa-window-close {
+  color: #bb0000;
+}
 
 /* media queries */
 /*
@@ -62,6 +107,9 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
+/* wide screen */
+@media (min-width: 1040px) {
+}
 
 /* Tablet device */
 @media (max-width: 768px) {
@@ -101,7 +149,4 @@ Extra (xl) large devices (large desktops, 1200px and up)
   .new-alerts-card {
     padding: 5px 0;
   }
-}
-
-@media (min-width: 1024px) {
 }
