@@ -44,6 +44,7 @@ main {
   font-size: 0.96em;
 }
 
+/* defualt */
 .card {
   /* border: 2px #b8b8b8;
   border-style: solid; */
@@ -245,6 +246,19 @@ hr.light-100 {
   margin-bottom: -1px;
   background-color: #fff;
   border: 1px solid transparent;
+}
+
+/* blogs section  */
+.blogs-section {
+  margin-bottom: 2.4em;
+}
+
+.bg-img-small {
+  background-image: url("img/corpHqSml.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  width: 100%;
 }
 
 /* icon utilities */
