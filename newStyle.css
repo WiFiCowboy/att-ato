@@ -13,7 +13,6 @@ main {
   padding-left: 2em;
   padding-right: 2em;
   background-color: #d5d5d5;
-  height: 100vh;
 }
 
 /* navbar style */
@@ -51,10 +50,6 @@ main {
   border-radius: 15px;
 }
 
-/* img {
-  border-radius: 5px;
-} */
-
 /* alerts section */
 .hide {
   display: none;
@@ -67,6 +62,7 @@ main {
 /*  carousel section*/
 .carousel {
   padding-top: 2em;
+  margin-bottom: 2.5em;
 }
 
 .card-img-style {
@@ -101,6 +97,156 @@ main {
   cursor: pointer;
 }
 
+/*  */
+
+.card-body {
+  font-size: 0.8em;
+}
+
+/* news section  */
+.news-sec {
+  font-size: 10px;
+}
+
+.media-heading {
+  font-size: 1em;
+}
+
+/* icon tool bar  */
+.icon-bar {
+  width: 100%;
+  background-color: #067ab4;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 5px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 0.7em;
+}
+
+.icon-bar a:hover {
+  color: #065278;
+}
+
+/* Social Icons bar  */
+.news-icon-toolbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.news-icon-toolbar div {
+  padding: 10px;
+}
+
+.news-video {
+  max-width: 500px;
+}
+
+.news-mentions {
+  color: #065278;
+}
+
+hr.light-100 {
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.avatar {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  white-space: nowrap;
+  border-radius: 1000px;
+  vertical-align: bottom;
+}
+
+.avatar i {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+}
+
+.avatar img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border: 0 none;
+  border-radius: 1000px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.avatar-online i {
+  background-color: #4caf50;
+}
+
+.avatar-off i {
+  background-color: #616161;
+}
+
+.avatar-busy i {
+  background-color: #ff9800;
+}
+
+.avatar-away i {
+  background-color: #f44336;
+}
+
+.avatar-100 {
+  width: 100px;
+}
+
+.avatar-100 i {
+  height: 20px;
+  width: 20px;
+}
+
+.avatar-lg {
+  width: 50px;
+}
+
+.avatar-lg i {
+  height: 12px;
+  width: 12px;
+}
+
+.avatar-sm {
+  width: 30px;
+}
+
+.avatar-sm i {
+  height: 8px;
+  width: 8px;
+}
+
+.avatar-xs {
+  width: 20px;
+}
+
+.avatar-xs i {
+  height: 7px;
+  width: 7px;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid transparent;
+}
+
 /* icon utilities */
 .news-mentions:hover,
 .fa-share-alt:hover,
@@ -114,6 +260,12 @@ main {
 .current_program:hover,
 .watch-tv:hover {
   filter: invert(50%);
+  cursor: pointer;
+}
+
+.badge-follow:hover {
+  color: #067ab4;
+  background-color: #d5d5d5;
   cursor: pointer;
 }
 
