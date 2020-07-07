@@ -1,18 +1,19 @@
-// alerts section functions
-window.onload = function () //executes when the page finishes loading
-{
-  setTimeout(func1, 2000); //sets a timer which calls function func1 after 2,000 milliseconds = 2 secs.
+// removed for client demo
+// // alerts section functions
+// window.onload = function () //executes when the page finishes loading
+// {
+//   setTimeout(func1, 2000); //sets a timer which calls function func1 after 2,000 milliseconds = 2 secs.
 
-  // setTimeout(func2, 10000); //sets a timer which calls function func1 after 10,000 milliseconds = 10 secs.
-};
+//   // setTimeout(func2, 10000); //sets a timer which calls function func1 after 10,000 milliseconds = 10 secs.
+// };
 
-function func1() {
-  document.getElementById("alert-section").className = "show";
-}
-// function to remove element
-// function func2() {
-//   document.getElementById("alert-section").className = "hide";
+// function func1() {
+//   document.getElementById("alert-section").className = "show";
 // }
+// // function to remove element
+// // function func2() {
+// //   document.getElementById("alert-section").className = "hide";
+// // }
 
 // carousel script for testing
 $(document).ready(function () {

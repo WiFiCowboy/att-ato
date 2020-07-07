@@ -13,6 +13,8 @@ main {
   padding-left: 2em;
   padding-right: 2em;
   background-color: #d5d5d5;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* navbar style */
@@ -42,6 +44,11 @@ main {
 
 .nav-text {
   font-size: 0.96em;
+}
+
+.announcement-header {
+  font-size: 22px;
+  letter-spacing: 1.5px;
 }
 
 /* defualt */
@@ -261,6 +268,11 @@ hr.light-100 {
   width: 100%;
 }
 
+/* bottom  */
+.bottom-container {
+  margin-top: 20px;
+}
+
 /* icon utilities */
 .news-mentions:hover,
 .fa-share-alt:hover,
@@ -283,6 +295,7 @@ hr.light-100 {
   cursor: pointer;
 }
 
+.fa-bullhorn,
 .fa-heart,
 .fa-share-alt,
 .fa-facebook,
