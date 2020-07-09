@@ -276,12 +276,23 @@ hr.light-100 {
   width: 100%;
 }
 
+/* events section */
+.event-icons {
+  padding-top: 5px;
+  font-size: 1em;
+}
+
+.events-text {
+  font-size: 0.8em;
+}
+
 /* bottom  */
 .bottom-container {
   margin-top: 20px;
 }
 
 /* icon utilities */
+.fa-calendar-alt:hover,
 .news-mentions:hover,
 .fa-share-alt:hover,
 .fa-share-square:hover,
@@ -303,6 +314,7 @@ hr.light-100 {
   cursor: pointer;
 }
 
+.fa-calendar-alt,
 .fa-bullhorn,
 .fa-heart,
 .fa-share-alt,
