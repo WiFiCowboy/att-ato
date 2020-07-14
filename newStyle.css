@@ -12,7 +12,7 @@ body {
 main {
   padding-left: 2em;
   padding-right: 2em;
-  background-color: #d5d5d5;
+  background-color: #b5b5b5;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -289,6 +289,18 @@ hr.light-100 {
 /* bottom  */
 .bottom-container {
   margin-top: 20px;
+}
+
+.links-header {
+  font-size: 1.2em;
+}
+
+/* footer */
+footer {
+  /* background-color: #000000; */
+  color: black;
+  padding-top: 2rem;
+  font-size: 0.2em;
 }
 
 /* icon utilities */
