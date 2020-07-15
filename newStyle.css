@@ -113,8 +113,6 @@ div > .carousel-icon {
   cursor: pointer;
 }
 
-/*  */
-
 .card-body {
   font-size: 0.8em;
 }
@@ -126,6 +124,10 @@ div > .carousel-icon {
 
 .media-heading {
   font-size: 1em;
+}
+
+.test {
+  background-color: #222222;
 }
 
 /* icon tool bar  */
@@ -293,6 +295,10 @@ hr.light-100 {
 
 .links-header {
   font-size: 1.2em;
+}
+
+.footer-links {
+  margin: 0.44em;
 }
 
 /* footer */
