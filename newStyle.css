@@ -1,6 +1,10 @@
 /* closest font to clearveiwATT */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700");
 
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   height: 100%;
@@ -276,6 +280,13 @@ hr.light-100 {
   background-position: center;
   position: relative;
   width: 100%;
+}
+
+.news-thumbnail {
+  background-image: url(img/defaultThumbnail.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
 }
 
 /* events section */
