@@ -130,9 +130,9 @@ div > .carousel-icon {
   font-size: 1em;
 }
 
-.test {
-  background-color: #222222;
-}
+/* .test {
+  max-width: 98%;
+} */
 
 /* icon tool bar  */
 .icon-bar {
