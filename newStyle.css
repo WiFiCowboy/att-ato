@@ -96,6 +96,7 @@ div > .carousel-icon {
 
 .carousel-icon {
   font-size: 1.3em;
+  margin-right: 0.3em;
 }
 
 .fa-chevron-circle-left {
@@ -129,10 +130,6 @@ div > .carousel-icon {
 .media-heading {
   font-size: 1em;
 }
-
-/* .test {
-  max-width: 98%;
-} */
 
 /* icon tool bar  */
 .icon-bar {
@@ -501,11 +498,6 @@ Extra (xl) large devices (large desktops, 1200px and up)
     display: none;
   }
 
-  main {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-
   .new-alerts-card {
     padding: 5px 0;
   }
@@ -518,5 +510,9 @@ Extra (xl) large devices (large desktops, 1200px and up)
   .fa-chevron-circle-right {
     font-size: 1.5em;
     margin-left: -1em;
+  }
+
+  .news-thumbnail {
+    display: none;
   }
 }
